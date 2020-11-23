@@ -69,5 +69,8 @@ body {
   margin: auto;
   max-width: 500px;
 }
+.skills-text h3 {
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
