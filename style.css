@@ -9,6 +9,12 @@ body {
   font-family: Playfair Display;
 }
 
+.heading {
+  padding: 20px;
+  text-align: center;
+  font-family: Lobster, sans-serif;
+}
+
 .header {
   align-items: center;
   background-color: #000000;
@@ -42,6 +48,26 @@ body {
 }
 .social-icons i:hover {
   color: #fff;
+}
+
+.languages {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.each-language {
+  margin: auto;
+}
+.each-language img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-text {
+  margin: auto;
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
