@@ -50,6 +50,10 @@ body {
   color: #fff;
 }
 
+.skills {
+  margin-bottom: 50px;
+}
+
 .languages {
   display: flex;
   margin: auto;
@@ -75,6 +79,7 @@ body {
 
 .projects {
   background: #646464;
+  padding-bottom: 50px;
 }
 
 .projects-container {
@@ -125,6 +130,21 @@ body {
   font-size: 1rem;
   margin: 0 10px;
   width: 100px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-image img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.about-text {
+  margin: auto;
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
