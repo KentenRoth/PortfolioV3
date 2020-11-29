@@ -17,7 +17,7 @@ body {
 
 .header {
   align-items: center;
-  background: linear-gradient(to bottom right, #25C8FC, #9440FE);
+  background: linear-gradient(to bottom right, #017DAB, #4800A4);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -48,7 +48,7 @@ body {
   padding: 0px 10px;
 }
 .social-icons i:hover {
-  color: #25C8FC;
+  color: #017DAB;
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
 }
