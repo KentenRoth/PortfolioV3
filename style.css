@@ -167,4 +167,25 @@ body {
   width: 300px;
 }
 
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  margin: auto;
+  max-width: 500px;
+  padding: 20px 0px;
+}
+
+.built-with {
+  padding: 10px 0px 20px 0px;
+}
+.built-with img {
+  padding: 0px 5px;
+  height: 60px;
+  width: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
