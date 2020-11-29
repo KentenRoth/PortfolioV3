@@ -16,7 +16,7 @@ body
     // ********** Header ********** \\
 .header
     align-items: center
-    background-color: #000000
+    background: linear-gradient(to bottom right, $primary-color-light, $secondary-color-light)
     display: flex
     height: 100vh
     justify-content: center
@@ -24,10 +24,11 @@ body
     width: 100vw
 
 .header-content
-    background: rgba(10,10,10, 0.3)
+    background: rgba(10,10,10, 0.4)
     border-radius: 10px
-    color: #d4d4d4
-    padding: 20px 50px
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.65)
+    color: $font-light
+    padding: 25px 60px
 
     h1
         font-family: Castoro, sans-serif
@@ -45,7 +46,9 @@ body
         padding: 0px 10px
 
     i:hover
-        color: #fff
+        color: $primary-color-light
+        transform: scale(1.1)
+        transition: ease-in-out 0.2s
 
     // ********** Skills ********** \\
 
