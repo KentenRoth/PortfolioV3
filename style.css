@@ -151,4 +151,20 @@ body {
   padding: 10px;
 }
 
+.contact {
+  background: #646464;
+  text-align: center;
+}
+
+.contact-container {
+  margin: auto;
+  max-width: 500px;
+}
+.contact-container form input {
+  width: 300px;
+}
+.contact-container form textarea {
+  width: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
