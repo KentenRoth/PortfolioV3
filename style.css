@@ -15,6 +15,13 @@ body {
   font-family: Lobster, sans-serif;
 }
 
+.nav {
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+
 .header {
   align-items: center;
   background: linear-gradient(to bottom right, #27009b, #640096);
