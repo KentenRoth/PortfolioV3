@@ -24,7 +24,7 @@ body {
 
 .header {
   align-items: center;
-  background: linear-gradient(to bottom right, #27009b, #640096);
+  background: linear-gradient(to bottom right, #202060, #602080);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -50,18 +50,18 @@ body {
 }
 
 .social-icons i {
-  color: #d4d4d4;
+  color: #602080;
   font-size: 28px;
   padding: 0px 10px;
 }
 .social-icons i:hover {
-  color: #db0078;
+  color: #892cdc;
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
 }
 
 .skills {
-  background: #08040c;
+  background: #202040;
   color: #d4d4d4;
   padding-bottom: 50px;
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .projects {
-  background: #120e16;
+  background: #202050;
   color: #d4d4d4;
   padding-bottom: 50px;
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .about {
-  background: #08040c;
+  background: #202040;
   color: #d4d4d4;
   text-align: center;
 }
@@ -167,7 +167,7 @@ body {
 }
 
 .contact {
-  background: #120e16;
+  background: #202050;
   color: #d4d4d4;
   padding-bottom: 20px;
   text-align: center;
@@ -185,7 +185,7 @@ body {
 }
 
 .footer {
-  background: black;
+  background: #222222;
   color: white;
   text-align: center;
 }
