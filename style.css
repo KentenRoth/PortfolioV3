@@ -109,7 +109,7 @@ body {
 }
 
 .card {
-  background: #000000;
+  background: #202040;
   border-radius: 10px;
   color: #fff;
   max-width: 300px;
@@ -125,7 +125,7 @@ body {
 .card-image::after {
   display: block;
   position: relative;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #202040 98%);
   height: 200px;
   margin-top: -200px;
   width: 100%;
@@ -140,12 +140,20 @@ body {
   padding: 15px;
 }
 .card-button button {
+  background: #602080;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   font-size: 1rem;
+  font-weight: 700;
   margin: 0 10px;
+  padding: 5px 0px 5px 0px;
   width: 100px;
+}
+.card-button button:hover {
+  background: #892cdc;
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
 }
 
 .about {
