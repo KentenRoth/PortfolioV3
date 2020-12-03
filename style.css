@@ -51,12 +51,12 @@ body {
 }
 
 .social-icons i {
-  color: #602080;
+  color: #9139d2;
   font-size: 28px;
   padding: 0px 10px;
 }
 .social-icons i:hover {
-  color: #892cdc;
+  color: #ea488b;
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
 }
@@ -141,7 +141,7 @@ body {
   padding: 15px;
 }
 .card-button button {
-  background: #602080;
+  background: #9139d2;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -152,7 +152,7 @@ body {
   width: 100px;
 }
 .card-button button:hover {
-  background: #892cdc;
+  background: #ea488b;
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
 }
