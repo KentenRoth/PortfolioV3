@@ -30,6 +30,15 @@ body {
   width: 100%;
 }
 
+.logo {
+  position: fixed;
+  top: 5px;
+  z-index: 10;
+}
+.logo img {
+  height: 40px;
+}
+
 .menu-bars {
   position: fixed;
   top: 8px;
@@ -57,13 +66,14 @@ body {
   transform: rotate(45deg) translate(-6px, -2px);
 }
 
-.logo {
+.overlay {
   position: fixed;
-  top: 5px;
-  z-index: 10;
-}
-.logo img {
-  height: 40px;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .header {
