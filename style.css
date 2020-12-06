@@ -66,7 +66,17 @@ body {
   transform: rotate(45deg) translate(-6px, -2px);
 }
 
-.overlay {
+.nav-background {
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav {
   position: fixed;
   z-index: 9;
   top: 0;
@@ -74,6 +84,49 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  transform: translateX(-100vw);
+}
+.nav ul {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: stretch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  height: 25%;
+  overflow: hidden;
+}
+.nav a {
+  position: relative;
+  top: 45%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.nav a:hover {
+  transform: scale(1.2);
+}
+
+.nav li:nth-of-type(1) {
+  background-color: #1b0647;
+}
+
+.nav li:nth-of-type(2) {
+  background-color: #202060;
+}
+
+.nav li:nth-of-type(3) {
+  background-color: #310a7c;
+}
+
+.nav li:nth-of-type(4) {
+  background-color: #602080;
 }
 
 .header {
