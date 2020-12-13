@@ -331,6 +331,13 @@ body {
   transition: ease-in-out 0.2s;
 }
 
+@media (max-width: 650px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+}
 .about {
   background: #1b0647;
   color: #d4d4d4;
