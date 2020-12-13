@@ -433,4 +433,11 @@ body {
   width: 60px;
 }
 
+@media (max-width: 500px) {
+  .built-with img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
