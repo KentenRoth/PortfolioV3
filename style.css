@@ -235,6 +235,18 @@ body {
   transition: ease-in-out 0.2s;
 }
 
+@media (max-width: 400px) {
+  .header-content h1 {
+    font-size: 2rem;
+  }
+  .header-content h3 {
+    font-size: 0.9em;
+  }
+
+  .social-icons i {
+    font-size: 22px;
+  }
+}
 .skills {
   background: #1b0647;
   color: #d4d4d4;
