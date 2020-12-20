@@ -248,13 +248,17 @@
 					<div class="heading">
 						<h1>Contact</h1>
 					</div>
-					<form class="contact-form">
-						<input type="text" placeholder="Name" />
-						<input type="text" placeholder="Email Address" />
-						<input type="text" placeholder="Subject" />
-						<textarea placeholder="Message"></textarea>
+					<form id="contact-form" class="contact-form">
+						<input type="text" placeholder="Name" id="name" />
+						<input
+							type="email"
+							placeholder="Email Address"
+							id="email"
+						/>
+						<input type="text" placeholder="Subject" id="subject" />
+						<textarea placeholder="Message" id="message"></textarea>
 						<div class="button-container">
-							<button>Send</button>
+							<button type="submit">Send</button>
 						</div>
 					</form>
 				</div>
