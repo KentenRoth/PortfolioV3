@@ -45,18 +45,22 @@ function processForm(e) {
 	let x = e.target;
 	e.preventDefault();
 	if (x.name.value.length > 26 || x.name.value.length < 2) {
-		console.log('name');
 		error.push('name');
 	}
-	if (x.subject.value.length > 26 || x.subject.length < 0) {
-		console.log('subject');
+	if (x.subject.value.length > 26 || x.subject.value.length < 1) {
 		error.push('subject');
 	}
 	if (x.message.value.length > 300 || x.message.value.length < 10) {
-		console.log('message');
 		error.push('message');
 	}
-	console.log(error);
+
+	if (error.length !== 0) {
+		error.map((input) => {
+			console.log(input);
+		});
+		return;
+	}
+	console.log('Submit form');
 }
 
 form.addEventListener('submit', processForm);

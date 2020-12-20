@@ -461,6 +461,12 @@ body {
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
 }
+.contact-form .error {
+  border-bottom: 1px solid red;
+}
+.contact-form .textarea-error {
+  border: 1px solid red;
+}
 
 @media (max-width: 400px) {
   .contact-container form input {
