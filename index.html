@@ -248,29 +248,51 @@
 					<div class="heading">
 						<h1>Contact</h1>
 					</div>
-					<form id="contact-form" class="contact-form">
+					<form
+						id="contact-form"
+						class="contact-form"
+						action="https://getform.io/f/71d10671-d0a3-4a2d-9571-fe9c2cafa0fb"
+						method="POST"
+					>
 						<input
 							class="valid"
+							name="name"
 							type="text"
 							placeholder="Name"
 							id="name"
+							required
+							minlength="2"
+							maxlength="25"
+							title="between 2 and 25 characters"
 						/>
 						<input
 							class="valid"
+							name="email"
 							type="email"
 							placeholder="Email Address"
 							id="email"
+							required
 						/>
 						<input
 							class="valid"
+							name="subject"
 							type="text"
 							placeholder="Subject"
 							id="subject"
+							minlength="2"
+							maxlength="25"
+							title="between 2 and 25 characters"
+							required
 						/>
 						<textarea
 							class="valid"
+							name="message"
 							placeholder="Message"
 							id="message"
+							minlength="5"
+							maxlength="300"
+							title="between 5 and 300 characters"
+							required
 						></textarea>
 						<div class="button-container">
 							<button type="submit">Send</button>

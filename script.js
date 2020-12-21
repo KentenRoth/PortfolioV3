@@ -80,9 +80,9 @@ function processForm(e) {
 			}
 			document.getElementById(input).classList.add('error');
 		});
-		return;
+		return false;
 	}
-	console.log('Submit form');
+	return true;
 }
 
-form.addEventListener('submit', processForm);
+// form.addEventListener('submit', processForm);
