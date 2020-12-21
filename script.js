@@ -37,15 +37,32 @@ navItems.forEach((nav) => {
 // Form Script
 const form = document.getElementById('contact-form');
 const name = document.getElementById('name');
+const email = document.getElementById('email');
 const subject = document.getElementById('subject');
 const message = document.getElementById('message');
 
 function processForm(e) {
+	const elements = ['name', 'email', 'subject', 'message'];
 	let error = [];
 	let x = e.target;
 	e.preventDefault();
+	elements.map((input) => {
+		if (input === 'message') {
+			document
+				.getElementById('message')
+				.classList.remove('textarea-error');
+		}
+		document.getElementById(input).classList.remove('error');
+	});
 	if (x.name.value.length > 26 || x.name.value.length < 2) {
 		error.push('name');
+	}
+	if (
+		/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+			x.email.value
+		) === false
+	) {
+		error.push('email');
 	}
 	if (x.subject.value.length > 26 || x.subject.value.length < 1) {
 		error.push('subject');
@@ -56,7 +73,12 @@ function processForm(e) {
 
 	if (error.length !== 0) {
 		error.map((input) => {
-			console.log(input);
+			if (input === 'message') {
+				document
+					.getElementById('message')
+					.classList.add('textarea-error');
+			}
+			document.getElementById(input).classList.add('error');
 		});
 		return;
 	}
