@@ -339,6 +339,10 @@ body {
   padding: 0px 15px;
 }
 
+.card-p {
+  font-size: 14px;
+}
+
 .card-more-button button {
   background: #9139d2;
   border: none;
